@@ -101,7 +101,7 @@ _open-unmix_ uses standard PyTorch [`torch.utils.data.Dataset`](https://pytorch.
 | `--dataset <str>`          | Name of the dataset (select from `musdb`, `aligned`, `sourcefolder`, `trackfolder_var`, `trackfolder_fix`) | `musdb`      |
 
 
-### `FixedSourcesTrackFolderDataset` (trackfolder_fix)     -  This is the one that i used for the project, had to change a lot in it too. the Data1 file is the one used
+### `FixedSourcesTrackFolderDataset` (trackfolder_fix)     -  This is the one that i used for the project, had to change a lot in it too. the code/band_split_version/scripts/openunmix12/data.py file is the one changed and used
 
 A dataset of that assumes audio sources to be stored
 in track folder where each track has a fixed number of sources. For each track the users specifies the target file-name (`target_file`) and a list of interferences files (`interferer_files`).
