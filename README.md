@@ -137,3 +137,13 @@ train/1/vocals.wav -------------------> output
 python train.py  --root /data --dataset trackfolder_fix --target-file vocals.flac --interferer-files bass.flac drums.flac other.flac
 ```
 
+#### Run Example
+
+```
+# run test on my umx, output is ./starlight_open-unmix
+umx  /home/user_7065/project_B/music_test/wav/Starlight.wav --model /home/user_7065/project_B/open-unmix-main/scripts/open-unmix --targets vocals --residual [string]::Empty
+
+# run test on my umx, output is ./starlight_open-unmix-modified
+umx  /home/user_7065/project_B/music_test/starlight_wav/Starlight.wav --model /home/user_7065/project_B/open-unmix-main_modified/scripts/open-unmix-modified-16-6-6  --targets vocals --residual [string]::Empty
+```
+
