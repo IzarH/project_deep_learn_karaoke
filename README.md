@@ -18,6 +18,7 @@ results – תוצרי הפרויקט.
 > This documentation refers to the standard training procedure for _Open-unmix_, where each target is trained independently. It has not been updated for the end-to-end training capabilities that the `Separator` module allows. Please contribute if you try this.
 
 Both models, `umxhq` and `umx` that are provided with pre-trained weights, can be trained using the default parameters of the `scripts/train.py` function.
+I built on the models provided, obviously trained them and used my own new weights
 
 ## Installation
 
