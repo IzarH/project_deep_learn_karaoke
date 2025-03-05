@@ -1,4 +1,11 @@
-# project_deep_learn_karaoke
+# Abstract
+
+The project focuses on developing an advanced deep learning model for audio source separation, providing innovative solutions for isolating different sound components from an audio mix. The primary goal of the project is to create a model capable of separating the various elements of a song (e.g., vocals, drums, and bass) using spectral information and advanced techniques such as transformers and sequential learning.
+As part of the project, the Open-Unmix model was adapted to include new network architectures, incorporating convolutional layers and transformers to enhance accuracy and performance. The project tackled significant technical challenges, including identifying suitable architectures, optimizing GPU memory, working with complex datasets, and adapting the model to handle audio segments of varying lengths.
+Key achievements include Successful integration of advanced network structures, Improved model performance through hyperparameter tuning and optimal neural network design and Effective handling of complex datasets and optimization of the training process.
+The developed model demonstrates impressive performance, contributing to the understanding of innovative technologies in audio processing and showcasing the vast potential of deep learning to create intelligent and precise solutions.
+
+
  
 docs – מסמך אפיון ודו”ח סופי .
 
